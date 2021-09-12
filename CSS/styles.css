@@ -45,10 +45,10 @@ a:hover {
 .card {
   background-color: white;
   border-radius: 15px;
-  height: 600px;
-  width: 350px;
+  height: 675px;
+  width: 450px;
   position: absolute;
-  top: 10%;
+  top: 12.5%;
   left: 0;
   right: 0;
   margin: auto;
@@ -62,12 +62,18 @@ a:hover {
   padding-bottom: 17.5px;
 }
 
+.description {
+  width: 75%;
+  margin: auto;
+  position: relative;
+  }
+
 /*set plan box*/
 .plan-box {
   background-color: hsl(225, 100%, 98%);
   border-radius: 10px;
-  height: 80px;
-  width: 300px;
+  height: 100px;
+  width: 350px;
   position: relative;
   margin: 20px auto 30px auto;
 }
@@ -85,7 +91,7 @@ a:hover {
 /*add plan-text*/
 .plan-text {
   position: absolute;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -96,8 +102,8 @@ a:hover {
 /*add Change link*/
 .change-text {
   position: absolute;
-  height: 80px;
-  line-height: 80px;
+  height: 100px;
+  line-height: 100px;
   right: 20px;
   margin: auto;
 }
@@ -107,7 +113,7 @@ a:hover {
   border: none;
   color: white;
   padding: 15px 0;
-  width: 300px;
+  width: 350px;
   text-align: center;
   text-decoration: none;
   display: block;
